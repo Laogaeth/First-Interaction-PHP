@@ -1,0 +1,65 @@
+html{
+    height: 100%;
+    width: 100%;
+    font-family: Montserrat;
+}
+body{
+    font-family: Montserrat;
+    background-image: url(./background.jpg);
+    background-size: cover;
+    margin: 0;
+
+    
+    
+}
+.heading, p{
+    text-indent: 15px;
+    font-size: 1.10em;
+    color:#99FFFF;
+}
+.description {
+    font-size: 0.85em;
+    color: #999a9e;
+}
+.container{
+    
+    background-color: #bb00ff99;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    padding: 40px 60px;
+    box-shadow:1px 1px 20px #dd00a0;
+    
+}
+
+
+select, option, input{
+    text-indent: 15px;
+    width: 100%;
+    border: 1px solid ;
+    border-radius: 5px;
+    background: #120458;
+    color: white;
+    padding: 10px 0;
+    box-shadow:1px 1px 10px #dd00a0;
+    border: none;
+    margin: 0.5em;
+}
+.submit-button{
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    padding: 12px 0;
+    font-size: 14px;
+    background: #120458;
+
+    transition: background 500ms ease;
+    color: white;
+}
+.submit-button:hover{
+    cursor: pointer;
+    background: #dd00a0;
+}
