@@ -2,15 +2,16 @@
 <html lang="en">
 <head>
 <?php
-error_reporting(0);
-$precos= array (0,65,85,70); //hotels prices
-$preco= "";
-$hotelPHP = $_GET["hotel"];
-$checkinPHP = $_GET["checkin"];
-$checkoutPHP = $_GET["checkout"];
-$date1 = strtotime($checkinPHP);
-$date2 = strtotime($checkoutPHP);
-$days = ($date2-$date1)/86400; // subtraction by dividing by total seconds in a day, gives result in days and not in seconds
+  error_reporting(0);
+  $precos= array (0,65,85,70); //hotels prices
+  $preco= "";
+    
+  $hotelPHP = $_GET["hotel"];
+  $checkinPHP = $_GET["checkin"];
+  $checkoutPHP = $_GET["checkout"];
+  $date1 = strtotime($checkinPHP);
+    $date2 = strtotime($checkoutPHP);
+    $days = ($date2-$date1)/86400; // subtraction by dividing by total seconds in a day, gives result in days and not in seconds
 
 switch($hotelPHP){
     case 1:
