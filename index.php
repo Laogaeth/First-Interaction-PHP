@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
 <?php
@@ -87,4 +87,4 @@ switch($hotelPHP){
     </div>
     
 </body>
-</html>
+
